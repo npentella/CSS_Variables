@@ -4,6 +4,7 @@
 
 :root {
  --base: blue;
+ --spacing: 5px;
 };
 
 
@@ -33,4 +34,9 @@ input {
 
 .hl {
   color: var(--base);
+}
+
+img {
+  padding: var(--spacing);
+  background-color: var(--base);
 }
