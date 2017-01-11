@@ -5,6 +5,7 @@
 :root {
  --base: blue;
  --spacing: 5px;
+ --blur: 10px;
 };
 
 
@@ -39,4 +40,5 @@ input {
 img {
   padding: var(--spacing);
   background-color: var(--base);
+  filter: blur(var(--blur));
 }
